@@ -3,8 +3,8 @@
 <div align="center">
 
 <p align="center">
-  <img src="images/logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
-  <img src="images/LogoAIoTLab.png" alt="AIoTLab Logo" width="170"/>
+  <img src="images/Logo_DAI_NAM.png" alt="DaiNam University Logo" width="200"/>
+  <img src="images/logoiaot.png" alt="AIoTLab Logo" width="170"/>
 </p>
 
 [![Made by AIoTLab](https://img.shields.io/badge/Made%20by%20AIoTLab-blue?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
@@ -184,7 +184,8 @@ print(f"Đã thêm {identity} vào cơ sở dữ liệu embeddings.")
 ```
 ## 📰 Poster
 <p align="center">
-  <img src="D:/Poster_Nhom4_Aiot.png" alt="System Architecture" width="800"/>
+  <img src="https://github.com/nguyenducduy2612/Nhan_dien_KM_CD/blob/main/images/Poster_Nhom4_Aiot.png?raw=true" 
+       alt="System Architecture" width="800"/>
 </p>
 
 ## 📚 Tài liệu Hỗ trợ

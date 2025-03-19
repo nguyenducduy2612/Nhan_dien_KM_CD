@@ -21,6 +21,10 @@
 Hệ thống thế hệ mới tích hợp phát hiện chuyển động và nhận diện danh tính, sử dụng OpenCV, YOLOv8 và DeepFace, hỗ trợ cảnh báo thời gian thực qua Telegram.
 
 ## 🏗️ Kiến trúc Hệ thống
+<p align="center">
+  <img src="https://github.com/nguyenducduy2612/Nhan_dien_KM_CD/blob/main/images/kientruchethong.png?raw=true" 
+       alt="System Architecture" width="650"/>
+</p>
 
 ### Tổng quan
 

@@ -12,7 +12,8 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-red?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
-# 📡 Hệ Thống Phát Hiện Chuyển Động và Nhận Diện KHUÔN MẶT
+
+#📡 Hệ Thống Phát Hiện Chuyển Động và Nhận Diện KHUÔN MẶT
 
 **Phát triển bởi Nhóm 4 Lớp CNTT 1601, Khoa Công nghệ Thông tin, Đại học Đại Nam**
 

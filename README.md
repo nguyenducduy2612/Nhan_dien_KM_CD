@@ -94,7 +94,25 @@ cd MotionIdentitySurveillance
 python -m venv venv
 source venv/bin/activate  # Trên Windows: venv\Scripts\activate
 ```
-
+# Dự án: Phát hiện chuyển động và Nhận diện khuôn mặt
+## Cấu trúc thư mục
+```bash
+motion_detection/
+│── .venv/                        # Môi trường ảo chứa các thư viện cần thiết
+│── alerts/                       # Lưu trữ các cảnh báo khi phát hiện chuyển động hoặc khuôn mặt
+│── faces/                        # Lưu dữ liệu khuôn mặt đã nhận diện và embeddings
+│── manual_captures/              # Chứa hình ảnh hoặc video được chụp/tải lên thủ công
+│── videos/                       # Thư mục chứa video được ghi lại từ camera giám sát
+│── create_embedding.py           # Tạo embeddings từ hình ảnh khuôn mặt để phục vụ nhận diện
+│── ds_model_facenet512_...       # Mô hình nhận diện khuôn mặt dựa trên FaceNet512
+│── embeddings.pkl                 # Tệp lưu embeddings của khuôn mặt đã được nhận diện
+│── main.py                        # File chính, xử lý phát hiện chuyển động và nhận diện khuôn mặt
+│── run_face.py                    # Chạy module nhận diện khuôn mặt riêng biệt
+│── telegram_bot.py                # Gửi thông báo cảnh báo qua Telegram khi phát hiện bất thường
+│── yolov8s.pt                     # Mô hình YOLOv8s được dùng để phát hiện chuyển động
+│── External Libraries/            # Thư viện ngoài được sử dụng trong project
+│── Scratches and Consoles/        # Ghi chú và script thử nghiệm
+```
 #### 📚 Cài đặt Thư viện
 
 ```bash

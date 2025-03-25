@@ -100,19 +100,6 @@ source venv/bin/activate  # Trên Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-
-**Lưu ý**: Tạo file `requirements.txt` với nội dung:
-
-```text
-opencv-python
-torch
-numpy
-telebot
-requests
-ultralytics
-deepface
-```
-
 #### ⚡ Cấu hình Hệ thống
 
 1. Tạo bot Telegram qua [BotFather](https://t.me/BotFather) để lấy `TELEGRAM_BOT_TOKEN`.
